@@ -1,0 +1,5 @@
+/Users/home/Desktop/4390-Assignment-2/obj/Debug/net6.0/4390-Assignment-2.csproj.AssemblyReference.cache
+/Users/home/Desktop/4390-Assignment-2/obj/Debug/net6.0/4390-Assignment-2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/home/Desktop/4390-Assignment-2/obj/Debug/net6.0/4390-Assignment-2.AssemblyInfoInputs.cache
+/Users/home/Desktop/4390-Assignment-2/obj/Debug/net6.0/4390-Assignment-2.AssemblyInfo.cs
+/Users/home/Desktop/4390-Assignment-2/obj/Debug/net6.0/4390-Assignment-2.csproj.CoreCompileInputs.cache
