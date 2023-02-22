@@ -1,0 +1,49 @@
+@page
+@model CartModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Proceed to payment </h1>
+    <h2>You can edit your order here before you pay</h2> 
+    <hr> 
+<div class = "row"> 
+    <div class= "col-8">
+            <form method= "post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control"/>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="email" class="control-label"></label>
+                    <input asp-for="email" class="form-control"/>
+                    <span asp-validation-for="email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CreditCard" class= "control-label"></label>
+                    <input asp-for="CreditCard" class="form-control"/>
+                    <span asp-validation-for="CreditCard" class="text-danger"> </span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="message" class= "control-label"></label>
+                    <textarea asp-for="message" class="form-control" rows="4">
+                        <span asp-validation-for="message" name="message" class="text-danger"></span>
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit" name="submit" class="btn btn-primary" onclick="myFunction()"/> 
+                </div>
+                @* <p id="demo"></p> *@
+            </form>
+            @* need to add string.Empty bc in the model page I used  public string message{get;set;}=string.Empty;  *@
+@if(@Model.message != string.Empty)  
+{
+    @* creating a var to write the message  *@
+    var welcome_message="Thank you for your order";
+    <p>@welcome_message - @Model.Name (@Model.email) :  "@Model.message"  </p>
+}
+    <p>Fos assistent click the following link <a href="https://docs.microsoft.com/aspnet/core">help</a>.</p>
+</div>
