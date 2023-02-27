@@ -8,17 +8,17 @@ namespace _4390_Assignment_2.Pages;
 public class CartModel : PageModel
 {
     [BindProperty]
-    [Display(Name ="Firt Name")]
+    [Display(Name= "First Name")]
     [Required]
     public string Name{get; set;}=string.Empty;
 
     [BindProperty]
     [Required]
-    [Display(Name ="E-Mail")]
+    [Display(Name= "E-Mail")]
     [EmailAddress] // requirment for emails
     public string email {get; set;}=string.Empty;
     [BindProperty]
-    [Display(Name = "Credit Card")]
+    [Display(Name= "Credit Card")]
     [Required]
     [CreditCard]
     public string CreditCard {get;set;}=string.Empty;
