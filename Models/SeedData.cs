@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-
-//Here I seed the data with sellers, each with a car or cars to sell
-namespace Final_Project_CarBag.Models
+namespace _4390_Assignment_2.Models
 {
     public static class SeedData
     {
@@ -15,24 +13,24 @@ namespace Final_Project_CarBag.Models
                     new Customer{
                         CustomerID= 1,
                         Address= "308 Negra Arroyo Lane, Albuquerque, New Mexico",
-                    },
+                        Name= "Walter White",
+                        Email= "heisenberg@gmail.com"
+                    }
+                );
+                context.deliveries.AddRange(
+                    new Delivery{
+                        DeliveryID= 1,
+                        Driver= "Jesse Pinkman",
+                        DeliveryTime= "May 6th 2007, 5:56, 10 minutes"
+                    }
+                );
+                context.orders.AddRange(
                     new Order{
-                        Customer= "Gustavo Fring",
-                        Address= "188 Willow Grove, Austin, Texas",
-                        Email= "gustavofring@gmail.com",
-                        Cars= new List<Car>{
-                            new Car {Make="Ferrari", Model="812 Superfast", Color="Red with yellow stripe", Year=2020, Mileage=10000, Price=400000},
-                            new Car {Make="Dodge", Model="Viper ACR", Color="Silver with black and red stripe", Year=2016, Mileage=8000, Price=200000},
-                            new Car {Make="Mercedes-AMG", Model="GT Black Series", Color="Orange", Year=2021, Mileage=200, Price=350000},
-                            new Car {Make="Chevrolet", Model="Camaro", Color="Forest green", Year=1969, Mileage=10000, Price=120000},
-                            new Car {Make="Ford", Model="Mustang Boss", Color="Yellow with black accents", Year=1969, Mileage=5000, Price=100000},
-                            new Car {Make="Ford", Model="Falcon", Color="Blue with silver accents", Year=1974, Mileage=10000, Price=80000},
-                            new Car {Make="Pontiac", Model="Firebird Trans-Am", Color="White with blue striping", Year=1969, Mileage=8000, Price=250000},
-                            new Car {Make="Chevrolet", Model="Corvette ZR1", Color="Red", Year=1970, Mileage=12000, Price=220000},
-                            new Car {Make="Chevrolet", Model="Corvette ZR1", Color="Orange", Year=2019, Mileage=5000, Price=170000},
-                            new Car {Make="Ford", Model="Mustang GT-500", Color="Blue with white stripes", Year=2021, Mileage=2500, Price=130000}
-                        }
-                    },
+                        OrderID= 1,
+                        Food= "Chicken combo, fries",
+                        Restaurant= "Los Pollos Hermanos",
+                        ResAddress= "225 Power Street, Albuquerque, New Mexico"
+                    }
                 );
                 context.SaveChanges();
             }

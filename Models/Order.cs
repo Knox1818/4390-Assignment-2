@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Final_Project_CarBag.Models
+namespace _4390_Assignment_2.Models
 {
     public class Order{
         public int OrderID {get;set;}
@@ -9,10 +9,10 @@ namespace Final_Project_CarBag.Models
         public string? Food {get;set;}
         [StringLength(60, MinimumLength=1)]
         [Required]
-        public string? Customer {get;set;}
+        public string? Restaurant {get;set;}
         [StringLength(60, MinimumLength=1)]
         [Required]
-        public string? Email {get;set;}
+        public string? ResAddress {get;set;}
         [StringLength(60, MinimumLength=1)]
         [Required]
     }
