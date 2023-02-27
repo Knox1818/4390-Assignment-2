@@ -1,0 +1,3 @@
+##Ben Collier Pairing Report
+
+For this assignment, in the beginning, our group worked on retrieving things we used in CIDM 3312. Specifically, the packages we have to import and everything used for Razor Pages is unique, but we did end up getting what we needed. As for my responsibilities during this assignment, I worked on making the webapp and making the Models folder with a few tables and some seeded data. Lastly, I made a DBContext file to finish off everything within the models folder. 

@@ -5,7 +5,15 @@ namespace _4390_Assignment_2.Models
     {
         public static void Initialize(IServiceProvider serviceProvider){
             using (var context = new Context(serviceProvider.GetRequiredService<DbContextOptions<Context>>())){
-                if (context.sellers.Any())
+                if (context.customers.Any())
+                {
+                    return;
+                }
+                if (context.deliveries.Any())
+                {
+                    return;
+                }
+                if (context.orders.Any())
                 {
                     return;
                 }
