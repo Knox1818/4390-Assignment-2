@@ -12,5 +12,6 @@ namespace _4390_Assignment_2.Models
         public string? DeliveryTime {get;set;}
         [StringLength(60, MinimumLength=1)]
         [Required]
+        public Customer? Customers {get;set;}
     }
 }

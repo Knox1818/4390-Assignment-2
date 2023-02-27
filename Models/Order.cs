@@ -15,5 +15,6 @@ namespace _4390_Assignment_2.Models
         public string? ResAddress {get;set;}
         [StringLength(60, MinimumLength=1)]
         [Required]
+        public Customer? Customers {get;set;}
     }
 }
