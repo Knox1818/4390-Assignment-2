@@ -1,0 +1,2 @@
+##Yotam Balbul Pairing Report
+In this assignment, our group initially worked on retrieving things we used in CIDM 3312. Especially upgrading to ASP.net 7, the packages we have to import,  and everything used for Razor Pages is unique, but we did get what we needed. As for my responsibilities during this assignment, I worked on sting up the right environment using accurate commands. I also named the toolbar and created the about me page, the tables for the products, and the cart page. 
