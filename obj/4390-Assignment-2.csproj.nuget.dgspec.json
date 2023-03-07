@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/home/Desktop/4390-Assignment-2/4390-Assignment-2.csproj": {}
+    "/Users/carlosbaca/Desktop/CIDM 4390/4390-Food2U/4390-Assignment-2.csproj": {}
   },
   "projects": {
-    "/Users/home/Desktop/4390-Assignment-2/4390-Assignment-2.csproj": {
+    "/Users/carlosbaca/Desktop/CIDM 4390/4390-Food2U/4390-Assignment-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/home/Desktop/4390-Assignment-2/4390-Assignment-2.csproj",
+        "projectUniqueName": "/Users/carlosbaca/Desktop/CIDM 4390/4390-Food2U/4390-Assignment-2.csproj",
         "projectName": "4390-Assignment-2",
-        "projectPath": "/Users/home/Desktop/4390-Assignment-2/4390-Assignment-2.csproj",
-        "packagesPath": "/Users/home/.nuget/packages/",
-        "outputPath": "/Users/home/Desktop/4390-Assignment-2/obj/",
+        "projectPath": "/Users/carlosbaca/Desktop/CIDM 4390/4390-Food2U/4390-Assignment-2.csproj",
+        "packagesPath": "/Users/carlosbaca/.nuget/packages/",
+        "outputPath": "/Users/carlosbaca/Desktop/CIDM 4390/4390-Food2U/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/home/.nuget/NuGet/NuGet.Config"
+          "/Users/carlosbaca/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.103/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

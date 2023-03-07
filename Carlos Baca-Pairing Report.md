@@ -1,0 +1,3 @@
+For our paring report we meet several times through zoom to discuss our assignments. First, we met to meet each other and discuss our diagrams. Second, we met to discuss our assignment coming up and added packages needed for visio studio 2. third we met to see how things were coming along on or project and discuss what need to be done for the due date of this assignments, lastly, we meet with Dr. Babb to talk about expectations for this project, future deadlines, what we need to be doing from this point on.
+I feel like we are moving along good and will have great chemistry for this project.
+Future expectations are to complete assignments and meet with team members to get project in the right direction. Also meet with Dr. Babb weekly to see hoe everything is paying out.
