@@ -1,0 +1,4 @@
+##Bailee Gerlich Pairing Report
+For this assignment we were testing our code, we followed the tutorials that Dr. Babb posted and tried to make it work for our assignment. We ran into some issues while testing, but were able to work through them as best as we could.
+For our next assignment we will start on our semester project. We will meet with Dr. Bab weekly and discuss how our work is coming along, and ask questions for guidence. We will need to meet with Daniel Hix, soon to get a better understanding of the project. 
+I am confident that our team will be dilliengent and efficiant. This will be a challenge because some of things we are learning are very new to me, but I am excited to learn throughout this process.
